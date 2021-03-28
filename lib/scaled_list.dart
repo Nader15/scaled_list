@@ -199,7 +199,7 @@ class _ScaledListState extends State<ScaledList> {
       duration: Duration(milliseconds: 300),
       height: parentHeight * 0.01,
       margin: EdgeInsets.all(parentWidth * 0.01),
-      width: _selectedIndex == index ? parentWidth * 0.05 : parentWidth * 0.015,
+      width: _selectedIndex == index ? parentWidth * 0.1 : parentWidth * 0.015,
       decoration: BoxDecoration(
           color: index == _selectedIndex
               ? widget.itemColor(index)
